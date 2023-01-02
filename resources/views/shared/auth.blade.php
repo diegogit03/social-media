@@ -7,7 +7,11 @@
     <title>Social Media</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-    <div class="container px-4">teste</div>
+<body class="bg-blue-50">
+    <div class="container flex h-screen w-full items-center justify-center px-10">
+        <div class="bg-white prose p-10 text-center">
+            @yield('content')
+        </div>
+    </div>
 </body>
 </html>
